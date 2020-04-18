@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+  #articles .container {
+    padding: 2rem;
+  }
+
+  #main-nav {
+    padding: 1rem 0 0.75rem;
+  }
+  
+  #main-nav .flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #main-nav .logo,
+  #main-nav ul a {
+    margin: 0;
+  }
+
+  #main-nav ul {
+    padding: 0;
+  }
+
+}
