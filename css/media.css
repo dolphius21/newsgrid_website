@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 568px) {
   #articles .container {
     padding: 2rem;
   }
@@ -37,10 +37,28 @@
     padding: 0 1rem 0 0;
   }
 
+  .page-container {
+    text-align: left;
+    grid-template-columns: 5fr 2fr;
+    grid-gap: 1rem;
+  }
+
+  .page-container h1 {
+    font-size: 3rem;
+  }
+
+  .page-container article {
+    grid-row: 1 / span 3;
+  }
+
 }
 
 @media (min-width: 1024px) {
   .articles-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .height-wrapper {
+    min-height: calc(100vh - 462px);
   }
 }

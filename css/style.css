@@ -86,6 +86,11 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--tech-color);
 }
 
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
 .bg-dark {
   background: var(--dark-color);
   color: #fff;
@@ -100,8 +105,14 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-.card {
-  padding: 1rem;
+.list li {
+  padding: .5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+.list li:last-child {
+  border: none;
 }
 
 
@@ -189,6 +200,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem 1rem;
 }
 
+.bg-primary a {
+  color: #fff;
+}
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta {
+  margin-bottom: 0.5rem;
+}
+
 /* Footer */
 
 footer .logo {
@@ -264,5 +291,36 @@ footer .logo {
   background: #444;
   text-align: center;
   padding: 1.5rem;
+}
+
+/* About */
+
+.page-container {
+  display: grid;
+}
+
+.page-container .card {
+  margin-bottom: 1rem;
+}
+
+.page-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.page-container {
+  text-align: center;
+}
+
+aside p {
+  margin-bottom: 1rem;
+}
+
+aside .btn {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+  display: block;
+  text-align: center;
 }
 
